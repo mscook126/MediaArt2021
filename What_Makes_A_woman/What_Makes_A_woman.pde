@@ -25,17 +25,13 @@ fill (40, 0, 20); //nipple
 ellipse (300, 200, 50, 50); 
 }
 
-/*
+
 { ///cleavage
 stroke (60, 0, 20);
 strokeWeight (10);
 line(200, 0, 200, 100); /// x, y, to x, y
 }
-*/
 
-noFill();
-stroke (1);
-arc(350, 250, 50, 20, 0, HALF_PI);
 
 
 ///setup is at start of program
