@@ -25,6 +25,3 @@ noStroke ();
 fill (40, 0, 20); //nipple
 ellipse (600, 400, 50, 50); 
 }
-
-void keyPressed () {
-  
