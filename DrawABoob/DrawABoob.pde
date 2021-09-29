@@ -143,8 +143,23 @@ void keyPressed() {
     fill (90, 57, 35);
     ellipse (600, 400, 50, 50);
   }
- //* if (key == UP) { draw ();
-    //noStroke (); // boob right
-    //fill (198, 162, 94);
-    ///rect (500, 400, 190, 20);
+  if (key == '6') {
+    background (137, 99, 74);
+
+    noStroke (); // boob left
+    fill (118, 81, 56);
+    ellipse (200, 400, 100, 100);
+
+    noStroke (); /// nipple left
+    fill (90, 57, 35);
+    ellipse (200, 400, 50, 50);
+
+    noStroke (); // boob right
+    fill (118, 81, 56);
+    ellipse (600, 400, 100, 100);
+
+    noStroke (); /// nipple right
+    fill (90, 57, 35);
+    ellipse (600, 400, 50, 50);
   }
+}
