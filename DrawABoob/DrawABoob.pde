@@ -15,7 +15,7 @@ void setup () {
   text("DRAW A BOOB!", 400, 240);
   fill(1);
   textSize (60);
-  text("1) keys 1-0 change skin tone", 400, 360);
+  text("1) keys 1-6 change skin tone", 400, 360);
   fill (1);
   textSize (50);
   text ("2) press and drag mouse to draw", 400, 480);
