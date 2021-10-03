@@ -15,13 +15,16 @@ void setup () {
   text("DRAW A BOOB!", 400, 240);
   fill(1);
   textSize (60);
-  text("1) keys 1-6 change skin tone", 400, 360);
+  text("1) keys 1-0 change skin tone", 400, 360);
   fill (1);
   textSize (50);
-  text ("2) press and drag mouse to draw", 400, 480);
+  text ("2) press and drag mouse to draw", 400, 430);
+  fill (1);
+  textSize (50);
+  text ("3) hit 1-0 to restart", 400, 500);
   fill (1);
   textSize (60);
-  text ("3) don't forget to support your", 400, 600);
+  text ("4) don't forget to support your", 400, 600);
   fill (1);
   textSize (50);
   text ("local breast cancer awareness charity!", 400, 650);
@@ -105,11 +108,11 @@ void keyPressed() {
     ellipse (600, 400, 50, 50);
   }
 
-  if (key == '4') {
-    background (214, 187, 136);
+  if (key == '5') {
+    background (#D8BA92);
 
     noStroke (); // boob left
-    fill (198, 162, 94);
+    fill (#C6A272);
     ellipse (200, 400, 100, 100);
 
     noStroke (); ///nipple left
@@ -117,14 +120,14 @@ void keyPressed() {
     ellipse (200, 400, 50, 50);
 
     noStroke (); // boob right
-    fill (198, 162, 94);
+    fill (#C6A272);
     ellipse (600, 400, 100, 100);
 
     noStroke (); /// nipple right
     fill (111, 75, 8);
     ellipse (600, 400, 50, 50);
   }
-  if (key == '5') {
+  if (key == '7') {
     background (137, 99, 74);
 
     noStroke (); // boob left
@@ -144,22 +147,98 @@ void keyPressed() {
     ellipse (600, 400, 50, 50);
   }
   if (key == '6') {
-    background (137, 99, 74);
+    background (#F0E3D3);
 
     noStroke (); // boob left
-    fill (118, 81, 56);
+    fill (#F0D9BD);
     ellipse (200, 400, 100, 100);
 
     noStroke (); /// nipple left
-    fill (90, 57, 35);
+    fill (#C19E73);
     ellipse (200, 400, 50, 50);
 
     noStroke (); // boob right
-    fill (118, 81, 56);
+    fill (#F0D9BD);
     ellipse (600, 400, 100, 100);
 
     noStroke (); /// nipple right
-    fill (90, 57, 35);
+    fill (#C19E73);
+    ellipse (600, 400, 50, 50);
+  }
+  if (key == '4') {
+    background (#FAF3EB);
+
+    noStroke (); // boob left
+    fill (#DEA6B4);
+    ellipse (200, 400, 100, 100);
+
+    noStroke (); /// nipple left
+    fill (#C48696);
+    ellipse (200, 400, 50, 50);
+
+    noStroke (); // boob right
+    fill (#DEA6B4);
+    ellipse (600, 400, 100, 100);
+
+    noStroke (); /// nipple right
+    fill (#C48696);
+    ellipse (600, 400, 50, 50);
+  }
+  if (key == '8') {
+    background (#E8BB98);
+
+    noStroke (); // boob left
+    fill (#CE9A72);
+    ellipse (200, 400, 100, 100);
+
+    noStroke (); /// nipple left
+    fill (#AA7246);
+    ellipse (200, 400, 50, 50);
+
+    noStroke (); // boob right
+    fill (#CE9A72);
+    ellipse (600, 400, 100, 100);
+
+    noStroke (); /// nipple right
+    fill (#AA7246);
+    ellipse (600, 400, 50, 50);
+  }
+   if (key == '9') {
+    background (#C19A65);
+
+    noStroke (); // boob left
+    fill (#AD7C3D);
+    ellipse (200, 400, 100, 100);
+
+    noStroke (); /// nipple left
+    fill (#815924);
+    ellipse (200, 400, 50, 50);
+
+    noStroke (); // boob right
+    fill (#AD7C3D);
+    ellipse (600, 400, 100, 100);
+
+    noStroke (); /// nipple right
+    fill (#815924);
+    ellipse (600, 400, 50, 50);
+  }
+  if (key == '0') {
+    background (#AA8371);
+
+    noStroke (); // boob left
+    fill (#936855);
+    ellipse (200, 400, 100, 100);
+
+    noStroke (); /// nipple left
+    fill (#6F4430);
+    ellipse (200, 400, 50, 50);
+
+    noStroke (); // boob right
+    fill (#936855);
+    ellipse (600, 400, 100, 100);
+
+    noStroke (); /// nipple right
+    fill (#6F4430);
     ellipse (600, 400, 50, 50);
   }
 }
