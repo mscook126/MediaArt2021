@@ -32,11 +32,11 @@ class Star {
 
 
     float r = map(z, 0, width, 16, 0);
-   /// ellipse (sx, sy, r, r);
+    //ellipse (sx, sy, r, r);
 
     float px = map(x / pz, 0, 1, 0, width);
     float py = map(y / pz, 0, 1, 0, height);
- pz = z; 
+    pz = z;
     stroke (255);
     line (px, py, sx, sy);
   }
